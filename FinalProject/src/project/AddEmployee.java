@@ -15,7 +15,7 @@ public class AddEmployee {
 	WebDriverWait wait;
 	
 	public AddEmployee(WebDriver driver) {
-		
+		System.out.print("hi");
 		this.driver=driver;
 		this.wait=new WebDriverWait(driver, Duration.ofSeconds(10));
 		PageFactory.initElements(driver, this);
